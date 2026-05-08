@@ -76,3 +76,30 @@ The backend provides a fast, locally-driven API that evaluates inputs against a 
   "message": "Email format and domain heuristics appear standard."
 }
 ```
+
+---
+
+## Frontend Documentation
+
+The frontend is a modern, responsive analysis console built with a minimalist aesthetic and clean code principles. It provides a centralized, distraction-free interface for evaluating security threats in real-time.
+
+### Tech Stack
+* **Markup:** HTML5.
+* **Styling:** CSS3 (Modern Flexbox and Grid).
+* **Logic:** JavaScript (Vanilla ES6+ with Fetch API).
+* **Icons:** Font Awesome (via CDN).
+
+### Key Features
+* **Heuristic Analysis Console:** A centered dashboard layout optimized for focus and usability.
+* **Real-time Security Feedback:** Status boxes update dynamically to show "Safe" or "Danger" ratings based on backend heuristics.
+* **Mobile-First Design:** Fully responsive grid that scales from mobile devices to high-resolution desktops.
+* **Clean Code Architecture:** Modular JavaScript functions for handling API requests and DOM updates.
+
+### Setup & Installation
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+
+
+## Preview
+![PhishGuard Dashboard](assets/dashboard-preview.png)

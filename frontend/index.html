@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard | Heuristic Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>Threat Analysis Console</h1>
+            <p>Evaluate URLs and Email addresses for malicious patterns in real-time.</p>
+        </header>
+
+        <main class="grid">
+            <section class="panel">
+                <div class="panel-header">
+                    <i class="fas fa-link"></i>
+                    <h3>URL Inspector</h3>
+                </div>
+                <form id="urlForm" class="analysis-form">
+                    <input type="text" id="urlInput" placeholder="Enter URL (e.g., https://...)" required>
+                    <button type="submit">Scan Link</button>
+                </form>
+                <div id="urlResult" class="status-box hidden"></div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-header">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h3>Email Validator</h3>
+                </div>
+                <form id="emailForm" class="analysis-form">
+                    <input type="email" id="emailInput" placeholder="Enter sender email..." required>
+                    <button type="submit">Scan Sender</button>
+                </form>
+                <div id="emailResult" class="status-box hidden"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
