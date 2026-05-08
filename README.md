@@ -102,4 +102,4 @@ The frontend is a modern, responsive analysis console built with a minimalist ae
 
 
 ## Preview
-![PhishGuard Dashboard](assets/dashboard-preview.png)
+![PhishGuard Dashboard](/assests/dashboard-preview.png)
